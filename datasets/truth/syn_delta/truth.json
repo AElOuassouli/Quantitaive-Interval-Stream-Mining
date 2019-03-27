@@ -1,0 +1,229 @@
+{
+    "truth": [
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_1",
+            "transformation": [4,4]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_2",
+            "transformation": [8,7]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_3",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_4",
+            "transformation": [15,15]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_5",
+            "transformation": [18,18]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_6",
+            "transformation": [22,22]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_7",
+            "transformation": [26,25]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_8",
+            "transformation": [29,29]
+        },
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_9",
+            "transformation": [33,33]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_2",
+            "transformation": [4,3]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_3",
+            "transformation": [7,7]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_4",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_5",
+            "transformation": [14,14]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_6",
+            "transformation": [18,18]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_7",
+            "transformation": [22,21]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_8",
+            "transformation": [25,25]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_9",
+            "transformation": [29,29]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_3",
+            "transformation": [3,4]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_4",
+            "transformation": [7,8]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_5",
+            "transformation": [10,11]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_6",
+            "transformation": [14,15]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_7",
+            "transformation": [18,18]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_8",
+            "transformation": [21,22]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_9",
+            "transformation": [25,26]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_4",
+            "transformation": [4,4]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_5",
+            "transformation": [7,7]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_6",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_7",
+            "transformation": [15,14]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_8",
+            "transformation": [18,18]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_9",
+            "transformation": [22,22]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_5",
+            "transformation": [3,3]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_6",
+            "transformation": [7,7]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_7",
+            "transformation": [11,10]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_8",
+            "transformation": [14,14]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_9",
+            "transformation": [18,18]
+        },
+        {
+            "premise": " Camera_5",
+            "conclusion": " Camera_6",
+            "transformation": [4,4]
+        },
+        {
+            "premise": " Camera_5",
+            "conclusion": " Camera_7",
+            "transformation": [8,7]
+        },
+        {
+            "premise": " Camera_5",
+            "conclusion": " Camera_8",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_5",
+            "conclusion": " Camera_9",
+            "transformation": [15,15]
+        },
+        {
+            "premise": " Camera_6",
+            "conclusion": " Camera_7",
+            "transformation": [4,3]
+        },
+        {
+            "premise": " Camera_6",
+            "conclusion": " Camera_8",
+            "transformation": [7,7]
+        },
+        {
+            "premise": " Camera_6",
+            "conclusion": " Camera_9",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_7",
+            "conclusion": " Camera_8",
+            "transformation": [3,4]
+        },
+        {
+            "premise": " Camera_7",
+            "conclusion": " Camera_9",
+            "transformation": [7,8]
+        },
+        {
+            "premise": " Camera_8",
+            "conclusion": " Camera_9",
+            "transformation": [4,4]
+        }
+    ]
+}

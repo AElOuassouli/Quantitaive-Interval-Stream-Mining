@@ -1,0 +1,212 @@
+{
+    "truth": [
+        {
+            "premise": "101",
+            "conclusion": " 301"
+        },
+        {
+            "premise": "101",
+            "conclusion": "302"
+        },
+        {
+            "premise": "101",
+            "conclusion": "402"
+        },
+        {
+            "premise": "102",
+            "conclusion": "101"
+        },
+        {
+            "premise": "102",
+            "conclusion": "201"
+        },
+        {
+            "premise": "102",
+            "conclusion": "202"
+        },
+        {
+            "premise": "102",
+            "conclusion": "203"
+        },
+        {
+            "premise": "102",
+            "conclusion": "401"
+        },
+        {
+            "premise": "102",
+            "conclusion": "403"
+        },
+        {
+            "premise": "201",
+            "conclusion": "202"
+        },
+        {
+            "premise": "201",
+            "conclusion": "203"
+        },
+        {
+            "premise": "201",
+            "conclusion": "401"
+        },
+        {
+            "premise": "201",
+            "conclusion": "403"
+        },
+        {
+            "premise": "202",
+            "conclusion": "101"
+        },
+        {
+            "premise": "202",
+            "conclusion": "102"
+        },
+        {
+            "premise": "202",
+            "conclusion": "201"
+        },
+        {
+            "premise": "202",
+            "conclusion": "203"
+        },
+        {
+            "premise": "202",
+            "conclusion": "301"
+        },
+        {
+            "premise": "202",
+            "conclusion": "401"
+        },
+        {
+            "premise": "202",
+            "conclusion": "403"
+        },
+        {
+            "premise": "203",
+            "conclusion": "101"
+        },
+        {
+            "premise": "203",
+            "conclusion": "102"
+        },
+        {
+            "premise": "203",
+            "conclusion": "201"
+        },
+        {
+            "premise": "203",
+            "conclusion": "202"
+        },
+        {
+            "premise": "203",
+            "conclusion": "301"
+        },
+        {
+            "premise": "203",
+            "conclusion": "401"
+        },
+        {
+            "premise": "203",
+            "conclusion": "403"
+        },
+        {
+            "premise": "301",
+            "conclusion": "302"
+        },
+        {
+            "premise": "301",
+            "conclusion": "401"
+        },
+        {
+            "premise": "301",
+            "conclusion": "402"
+        },
+        {
+            "premise": "302",
+            "conclusion": "301"
+        },
+        {
+            "premise": "302",
+            "conclusion": "401"
+        },
+        {
+            "premise": "302",
+            "conclusion": "402"
+        },
+        {
+            "premise": "401",
+            "conclusion": "101"
+        },
+        {
+            "premise": "401",
+            "conclusion": "102"
+        },
+        {
+            "premise": "401",
+            "conclusion": "201"
+        },
+        {
+            "premise": "401",
+            "conclusion": "202"
+        },
+        {
+            "premise": "401",
+            "conclusion": "203"
+        },
+        {
+            "premise": "401",
+            "conclusion": "302"
+        },
+        {
+            "premise": "401",
+            "conclusion": "402"
+        },
+        {
+            "premise": "401",
+            "conclusion": "403"
+        },
+        {
+            "premise": "402",
+            "conclusion": "302"
+        },
+        {
+            "premise": "402",
+            "conclusion": "401"
+        },
+        {
+            "premise": "402",
+            "conclusion": "403"
+        },
+        {
+            "premise": "403",
+            "conclusion": "101"
+        },
+        {
+            "premise": "403",
+            "conclusion": "102"
+        },
+        {
+            "premise": "403",
+            "conclusion": "201"
+        },
+        {
+            "premise": "403",
+            "conclusion": "202"
+        },
+        {
+            "premise": "403",
+            "conclusion": "203"
+        },
+        {
+            "premise": "403",
+            "conclusion": "301"
+        },
+        {
+            "premise": "403",
+            "conclusion": "401"
+        },
+        {
+            "premise": "403",
+            "conclusion": "402"
+        }
+    ]
+}

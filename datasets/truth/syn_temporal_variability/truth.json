@@ -1,0 +1,49 @@
+{
+    "truth": [
+        {
+            "premise": " Camera_0",
+            "conclusion": " Camera_1",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_1",
+            "conclusion": " Camera_2",
+            "transformation": [11,12]
+        },
+        {
+            "premise": " Camera_2",
+            "conclusion": " Camera_3",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_3",
+            "conclusion": " Camera_4",
+            "transformation": [11,12]
+        },
+        {
+            "premise": " Camera_4",
+            "conclusion": " Camera_5",
+            "transformation": [13,12]
+        },
+        {
+            "premise": " Camera_5",
+            "conclusion": " Camera_6",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_6",
+            "conclusion": " Camera_7",
+            "transformation": [12,11]
+        },
+        {
+            "premise": " Camera_7",
+            "conclusion": " Camera_8",
+            "transformation": [11,11]
+        },
+        {
+            "premise": " Camera_8",
+            "conclusion": " Camera_9",
+            "transformation": [11,13]
+        }
+    ]
+}

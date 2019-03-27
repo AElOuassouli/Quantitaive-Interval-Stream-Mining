@@ -10,7 +10,17 @@
 
 ### PIVOTMiner 
 
-### ITLD 
+### ITLD
+
+## Data sets 
+### Synthetic - Delta
+
+### Synthetic - Density
+
+### Synthetic - Temporal Variability
+
+### Real - Fox 
+
 
 ## Models 
 
