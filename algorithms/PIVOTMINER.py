@@ -7,12 +7,45 @@ import numpy as np
 from sklearn import metrics
 import copy
 import time
-
-
 import sys
 sys.path.append("..\\")
-from models.streams import Delta
 from models.streams import Transformation 
+
+class Interval:
+    m_start : int = None
+    m_end : int = None
+
+    def __init__(self, start, end):
+        if start < end :
+            self.m_start = start
+            self.m_end = end
+        else : 
+            raise NameError("Invalid interval - start: " + str(start) + " end: " + str(end))
+
+    def __str__(self):
+        return " ["+ str(self.m_start)+ "," +str(self.m_end) +")"
+
+
+class Labeled_Interval : 
+    def __init__(self, start, end, label):
+        self.m_interval = Interval(start, end)
+        self.m_label = label
+    
+    def __str__(self):
+        return "{ " + self.m_label + " , " + str(self.m_interval) + "}"
+
+
+class Delta:
+    def __init__(self, origin : Labeled_Interval, target : Labeled_Interval):
+        self.m_start = target.m_interval.m_start - origin.m_interval.m_start
+        self.m_end = target.m_interval.m_end - origin.m_interval.m_end
+        self.m_origin = origin.m_label
+        self.m_target = target.m_label
+    def __str__(self):
+        return self.m_origin + " -> " + self.m_target + "(" + str(self.m_start) +  "," + str(self.m_end) + ")"
+    def getCordinates(self):
+        return [self.m_start, self.m_end]
+
 
 
 def Count(eventList, state, delta):

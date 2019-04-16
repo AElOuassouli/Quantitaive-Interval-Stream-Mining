@@ -4,16 +4,18 @@ import math
 CHI_VALUE = 3.84
 
 class Transformation : 
-    m_alpha = 0
-    m_beta = 0
-
     def __init__(self, alpha, beta):
         self.m_alpha = alpha
         self.m_beta = beta
+    
+    def __eq__(self, other) :
+        if self.m_alpha == other.m_alpha and self.m_beta == other.m_beta :
+            return True
+        else :
+            return False
 
     def __str__(self):
         return "(" + str(self.m_alpha) + "," + str(self.m_beta) + ")"
-
 class Interval:
     m_start : int = None
     m_end : int = None
@@ -27,40 +29,7 @@ class Interval:
 
     def __str__(self):
         return " ["+ str(self.m_start)+ "," +str(self.m_end) +")"
-
-class Labeled_Interval : 
-    def __init__(self, start, end, label):
-        self.m_interval = Interval(start, end)
-        self.m_label = label
-    
-    def __str__(self):
-        return "{ " + self.m_label + " , " + str(self.m_interval) + "}"
-
-class Delta:
-    def __init__(self, origin : Labeled_Interval, target : Labeled_Interval):
-        self.m_start = target.m_interval.m_start - origin.m_interval.m_start
-        self.m_end = target.m_interval.m_end - origin.m_interval.m_end
-        self.m_origin = origin.m_label
-        self.m_target = target.m_label
-    def __str__(self):
-        return self.m_origin + " -> " + self.m_target + "(" + str(self.m_start) +  "," + str(self.m_end) + ")"
-    def getCordinates(self):
-        return [self.m_start, self.m_end]
-
-
-class IntervalSequence : 
-    def __init__(self, sequence, labels ):
-        self.m_sequence = sequence
-        self.m_labels = labels
-
-    def addInterval(self, interval : Labeled_Interval) :
-        self.m_sequence.append(interval)
-        self.m_labels.append(interval.m_label)
-        self.m_sequence = sorted(self.m_sequence , key = lambda interval: interval.m_interval.m_start)
-
-
 class Stream:
-
     def __init__(self, label, intervals, length, verify):
         self.m_label = label
         self.m_intervals = copy.copy(intervals)
@@ -193,26 +162,16 @@ class Stream:
 
     def GetUnion(self, stream):
         #computes union between self and stream
-        result = []
+        label = self.m_label + " v " + stream.m_label
+        intervals = self.m_intervals + stream.m_intervals
+        result = Stream(label, intervals, 0 , True)
         return result
-
-class Dependency:
-    m_labeles = []
-    m_transformations = []
-    m_confidence = -1  
-
-    m_intersection = []
-
-
-
-# Util Intersection based model
-def Confidence(premise : Stream, conclusion : Stream):
+def Confidence(premise : Stream, conclusion : Stream): 
     intersection = premise.GetIntersection(conclusion)
-    return intersection.m_length / premise.m_length
+    return float(intersection.m_length) / float(premise.m_length) , intersection
 
 def ValidityThreshold(lenA, lenB, duration):
-    
-    if lenA > 0 and duration > 0 and lenB > 0:
+    if lenA > 0 and duration > 0 and lenB > 0 and duration > lenA and duration > lenB :
         return float((lenA*lenB + math.sqrt(CHI_VALUE * lenA * (duration - lenA) * lenB * (duration - lenB) /duration))/(lenA * duration))
     else : 
-        return 0 #infinite
+        return 2 #infinite
