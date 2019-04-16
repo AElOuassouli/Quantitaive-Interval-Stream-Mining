@@ -18,7 +18,7 @@ Marc Plantevit, Céline Robardet, Vasile-Marian Scuturici:
 Marwan Hassani, Yifeng Lu, Jens Wischnewsky, Thomas Seidl: 
 **A geometric approach for mining sequential patterns in interval-based data streams**. FUZZ-IEEE 2016: 2128-2135
 
-NB: We added a temporal constraint $\Delta = [min, max]$ to this algorithm permitting to keep Delta vectors with time lags in $\Delta$ for the clusturing step. 
+NB: We added a temporal constraint <img src="https://latex.codecogs.com/gif.latex?$\Delta = [min, max]$"/> to this algorithm permitting to keep Delta vectors with time lags in $\Delta$ for the clusturing step. 
 
 ### Complex Temporal Dependencies Mining
 
@@ -55,7 +55,13 @@ The simulation process can be vizualized by playing the scenario.
 #### Datasets specification
 
 - **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/> (1 datasets)
+
+
+
+
 - **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences \in [100, 9000]$"/>. (11 datasets)
-- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 \in [0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/>. (17 datasets)
+
+
+- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors.  <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 \in [0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/>. (17 datasets)
 
 
