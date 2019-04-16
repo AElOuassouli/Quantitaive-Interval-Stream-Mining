@@ -54,9 +54,8 @@ The simulation process can be vizualized by playing the scenario.
 
 #### Datasets specification
 
-- **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" /> = 10000, $v = 10$, $\sigma^2$ = 0, $\#occurrence$ = 1000 (1 dataset)
-- **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" /> = 10000$, $v = 10$, $\sigma^2 = 0$, $\#occurrence \in [100, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000]$ (11 datasets) 
-- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" /> = 10000, v = 5, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2$"/> in [0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0], #occurrence = 500 (17 datasets) 
-
+- **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/> (1 datasets)
+- **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences \in [100, 9000]$"/>. (11 datasets)
+- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 \in [0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/>. (17 datasets)
 
 
