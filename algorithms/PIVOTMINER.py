@@ -9,30 +9,9 @@ import copy
 import time
 import sys
 sys.path.append("..\\")
-from models.streams import Transformation 
+from models.streams import Transformation
+from models.streams import Labeled_Interval
 
-class Interval:
-    m_start : int = None
-    m_end : int = None
-
-    def __init__(self, start, end):
-        if start < end :
-            self.m_start = start
-            self.m_end = end
-        else : 
-            raise NameError("Invalid interval - start: " + str(start) + " end: " + str(end))
-
-    def __str__(self):
-        return " ["+ str(self.m_start)+ "," +str(self.m_end) +")"
-
-
-class Labeled_Interval : 
-    def __init__(self, start, end, label):
-        self.m_interval = Interval(start, end)
-        self.m_label = label
-    
-    def __str__(self):
-        return "{ " + self.m_label + " , " + str(self.m_interval) + "}"
 
 
 class Delta:
@@ -78,7 +57,7 @@ def Transform(origin, target, eventList, delta):
                     
     return result
 
-def PivotMiner(eventList, states, minSupport, tmax, eps, min_samples, plot, prefix):
+def PivotMiner(eventList, states, minSupport, tmax, eps, min_samples):
     counts = {}
     deltas = {}
 

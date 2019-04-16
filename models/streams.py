@@ -175,3 +175,26 @@ def ValidityThreshold(lenA, lenB, duration):
         return float((lenA*lenB + math.sqrt(CHI_VALUE * lenA * (duration - lenA) * lenB * (duration - lenB) /duration))/(lenA * duration))
     else : 
         return 2 #infinite
+
+
+
+### Unique sequence of labeled intervals
+
+class Labeled_Interval : 
+    def __init__(self, start, end, label):
+        self.m_interval = Interval(start, end)
+        self.m_label = label
+    
+    def __str__(self):
+        return "{ " + self.m_label + " , " + str(self.m_interval) + "}"
+
+
+class IntervalSequence : 
+    def __init__(self, sequence, labels ):
+        self.m_sequence = sequence
+        self.m_labels = labels
+
+    def addInterval(self, interval : Labeled_Interval) :
+        self.m_sequence.append(interval)
+        self.m_labels.append(interval.m_label)
+        self.m_sequence = sorted(self.m_sequence , key = lambda interval: interval.m_interval.m_start)
