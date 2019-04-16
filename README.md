@@ -32,7 +32,7 @@ NB: We added a temporal constraint $\Delta = [min, max]$ to this algorithm permi
 ### Synthetic Data
 #### Simulation Tool 
 <p align="center"> 
-    <img  src="resources/img/generator_screenshot.PNG" width="70%">
+    <img  src="resources/img/generator_screenshot.PNG" width="60%">
     <br>
     Fig 1. Screenshot of the motion simulation tool. Green squares are moving object instances. Lines refer to trajectories. Red squares are "motion sensors"
 </p>
