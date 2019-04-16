@@ -4,33 +4,37 @@
 
 ## Algorithms 
 
-#### Pairwise stream relations
+### Pairwise stream dependenices mining
 
-### ITLD (Interval Time Lag Discovery)
+#### ITLD (Interval Time Lag Discovery)
 
-### CTDMiner (Complex Temporal Dependency Miner)
 
-### TEDDY  
+
+#### TEDDY  
 Marc Plantevit, Céline Robardet, Vasile-Marian Scuturici: 
 **Graph dependency construction based on interval-event dependencies detection in data streams**. Intell. Data Anal. 20(2): 223-256 (2016)
 
-###PIVOTMiner  
+#### PIVOTMiner  
 Marwan Hassani, Yifeng Lu, Jens Wischnewsky, Thomas Seidl: 
 **A geometric approach for mining sequential patterns in interval-based data streams**. FUZZ-IEEE 2016: 2128-2135
 
+### Complex Temporal Dependencies Mining
 
+#### CTDMiner (Complex Temporal Dependency Miner)
 
 
 ## Data sets
-### Real world - Fox
+### Real world datasets
+#### Fox
 
-### Simulation Tool 
+### Synthetic Data
+#### Simulation Tool 
 ![Alt text](resources/img/generator_screenshot.PNG)  
-### Synthetic - Delta
+#### Synthetic - Delta
 
-### Synthetic - Density
+#### Synthetic - Density
 
-### Synthetic - Temporal Variability
+#### Synthetic - Temporal Variability
 
 
 
