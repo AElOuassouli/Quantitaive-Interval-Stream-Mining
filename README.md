@@ -1,27 +1,32 @@
-# Quantitaive Interval Stream Mining
+# Quantitative Interval Stream Mining
 
 ## Abstract
 
-
-## Simulation Tool 
-
 ## Algorithms 
-### TEDDY 
+### Pairwise quantitative dependency mining
+####ITLD (Interval Time Lag Discovery)
 
-### PIVOTMiner 
-
-### ITLD
-
-## Data sets 
-### Synthetic - Delta
-
-### Synthetic - Density
-
-### Synthetic - Temporal Variability
-
-### Real - Fox 
+####TEDDY  
+Marc Plantevit, Céline Robardet, Vasile-Marian Scuturici: 
+**Graph dependency construction based on interval-event dependencies detection in data streams**. Intell. Data Anal. 20(2): 223-256 (2016)
+####PIVOTMiner  
+Marwan Hassani, Yifeng Lu, Jens Wischnewsky, Thomas Seidl: 
+**A geometric approach for mining sequential patterns in interval-based data streams**. FUZZ-IEEE 2016: 2128-2135
 
 
-## Models 
+### Complex Temporal Dependencies (CTD) Mining 
+####CTDMiner 
 
-## Utils 
+
+## Data sets
+### Synthetic data set
+#### Simulation Tool 
+![Alt text](./resources/img/generator_screenshot.png)  
+#### Synthetic - Delta
+
+#### Synthetic - Density
+
+#### Synthetic - Temporal Variability
+
+### Real world data set 
+
