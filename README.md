@@ -4,11 +4,13 @@
 
 ## Algorithms 
 
-###ITLD (Interval Time Lag Discovery)
+#### Pairwise stream relations
 
-###CTDMiner (Complex Temporal Dependency Miner)
+### ITLD (Interval Time Lag Discovery)
 
-###TEDDY  
+### CTDMiner (Complex Temporal Dependency Miner)
+
+### TEDDY  
 Marc Plantevit, Céline Robardet, Vasile-Marian Scuturici: 
 **Graph dependency construction based on interval-event dependencies detection in data streams**. Intell. Data Anal. 20(2): 223-256 (2016)
 
