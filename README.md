@@ -54,14 +54,14 @@ The simulation process can be vizualized by playing the scenario.
 
 #### Datasets specification
 
-- **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/> (1 datasets)
+- **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;=&space;0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;=&space;1000$"/> (1 datasets)
 
 
 
 
-- **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 = 0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences \in [100, 9000]$"/>. (11 datasets)
+- **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;=&space;0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;\in&space;[100,&space;9000]$"/>. (11 datasets)
 
 
-- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors.  <img src="https://latex.codecogs.com/gif.latex?$T_{observation} = 10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v = 5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2 \in [0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences = 1000$"/>. (17 datasets)
+- **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors.  <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;\in&space;[0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;=&space;1000$"/>. (17 datasets)
 
 
