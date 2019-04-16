@@ -21,7 +21,7 @@ Marwan Hassani, Yifeng Lu, Jens Wischnewsky, Thomas Seidl:
 ## Data sets
 ### Synthetic data set
 #### Simulation Tool 
-![Alt text](resources/img/generator_screenshot.png)  
+![Alt text](resources/img/generator_screenshot.PNG)  
 #### Synthetic - Delta
 
 #### Synthetic - Density
