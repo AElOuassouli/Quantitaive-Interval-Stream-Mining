@@ -45,7 +45,7 @@ Synthetic data sets are generated using a motion simulation tool permitting to d
 - Define trajectories occurrrences by specifying the following parameters:
     - Occurrence number: Number of moving objects (green squares) to be generated 
     - Duration (<img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" />): Duration of the simulation
-    - Speed <img src="https://latex.codecogs.com/gif.latex?\sim&space;\mathcal{N}(v,&space;\sigma^2)" title="\sim \mathcal{N}(v, \sigma^2)" />: v in pixels/time unit,  $\sigma^2$ is the variance of the speed normal distribution.
+    - Speed <img src="https://latex.codecogs.com/gif.latex?\sim&space;\mathcal{N}(v,&space;\sigma^2)" title="\sim \mathcal{N}(v, \sigma^2)" />: v in pixels/time unit, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2$"/> is the variance of the speed normal distribution.
 - Add trajectories occurrences by choosing a trajectory in the list and clicking on "Add to scenario".
 
 A moving object (green squares) per trajectory occurrence is generated. The starting timestamp of each occurrence is chosen randomly in <img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" />. The simulation process computes at each time unit in <img src="https://latex.codecogs.com/gif.latex?$T_{observation}$" title="$T_{observation}$" /> the position of each instance. If motion is detected in a sensor's area (presence of a moving object) an event *Motion Begin* is added to the corresponding stream. Similarly, a event *Motion End* is triggered when motion ends.
