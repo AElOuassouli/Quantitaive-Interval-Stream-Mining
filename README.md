@@ -7,8 +7,8 @@
 ### Pairwise stream dependenices mining
 
 #### ITLD (Interval Time Lag Discovery)
-
-
+Amine El Ouassouli, Lionel Robinault, Vasile-Marian Scuturici:
+**Mining Quantitative Temporal Dependencies Between Interval-Based Streams**. DaWaK 2019: 151-165
 
 #### TEDDY  
 Marc Plantevit, Céline Robardet, Vasile-Marian Scuturici: 
@@ -23,6 +23,8 @@ NB: We added a temporal constraint <img src="https://latex.codecogs.com/gif.late
 ### Complex Temporal Dependencies Mining
 
 #### CTDMiner (Complex Temporal Dependency Miner)
+Amine El Ouassouli, Lionel Robinault, Vasile-Marian Scuturici:
+**Mining complex temporal dependencies from heterogeneous sensor data streams**. IDEAS 2019: 23:1-23:10
 
 
 ## Data sets
@@ -56,11 +58,7 @@ The simulation process can be vizualized by playing the scenario.
 
 - **syn_delta**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;=&space;0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;=&space;1000$"/> (1 datasets)
 
-
-
-
 - **syn_density**: Linear trajectory with 10 equidistant sensors. <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;10$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;=&space;0$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;\in&space;[100,&space;9000]$"/>. (11 datasets)
-
 
 - **syn_temporal_variability**: Linear trajectory with 10 equidistant sensors.  <img src="https://latex.codecogs.com/gif.latex?$T_{observation}&space;=&space;10000$"/>, <img src="https://latex.codecogs.com/gif.latex?$v&space;=&space;5$"/>, <img src="https://latex.codecogs.com/gif.latex?$\sigma^2&space;\in&space;[0,2]$"/>, <img src="https://latex.codecogs.com/gif.latex?$occurrences&space;=&space;1000$"/>. (17 datasets)
 
